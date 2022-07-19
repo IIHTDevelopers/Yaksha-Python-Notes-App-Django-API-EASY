@@ -4,5 +4,5 @@ from notesapp.test.TestUtils import TestUtils
 class NotesAppAPIExceptionalTest(APITestCase):
     def test_exception(self):
         test_obj = TestUtils()
-        test_obj.yakshaAssert("TestBoundary",True,"exception")
+        test_obj.yakshaAssert("TestException",True,"exception")
         print("TestException = Passed")
